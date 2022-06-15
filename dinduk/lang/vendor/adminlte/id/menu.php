@@ -16,4 +16,6 @@ return [
     'important'                     => 'Penting',
     'warning'                       => 'Peringatan',
     'information'                   => 'Informasi',
+    'dashboard'                     => 'Dasbor',
+    'identity'                      => 'Data Identitas',
 ];
