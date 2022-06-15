@@ -21,7 +21,7 @@ return new class extends Migration
             $table->enum('IDType', ['KTP','Passport'])->default('KTP')->nullable(false);
             $table->text('address')->nullable(false);
             $table->string('religion',50)->nullable(false);
-            $table->enum('maritalStatus', ['single','married','divarcee'])->nullable(false);
+            $table->enum('maritalStatus', ['single','married','divorcee'])->nullable(false);
             $table->string('pob',50)->nullable(false);
             $table->date('dob')->nullable(false);
             $table->timestamps();
