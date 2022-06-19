@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => 'AdminLTE 3',
+    'title' => 'AdminCAPIL',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -30,7 +30,7 @@ return [
     |
     */
 
-    'use_ico_only' => false,
+    'use_ico_only' => true,
     'use_full_favicon' => false,
 
     /*
@@ -45,12 +45,12 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>LTE',
+    'logo' => '<b>Admin</b>CAPIL',
     'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
-    'logo_img_alt' => 'AdminLTE',
+    'logo_img_alt' => 'AdminCAPIL',
 
     /*
     |--------------------------------------------------------------------------
@@ -247,15 +247,15 @@ return [
             'can'  => 'manage-blog',
         ],
         [
-            'text'        => 'dashboard',
-            'url'         => 'home',
-            'icon'        => 'fas fa-tachometer-alt',
-        ],
-        [
             'text'        => 'identity',
-            'url'         => 'identity',
-            'icon'        => 'fas fa-user',
+            'url'         => 'home',
+            'icon'        => 'fas fa-fw fa-user',
         ],
+        // [
+        //     'text'        => 'identity',
+        //     'url'         => 'identity',
+        //     'icon'        => 'fas fa-user',
+        // ],
         // ['header' => 'account_settings'],
         // [
         //     'text' => 'profile',
